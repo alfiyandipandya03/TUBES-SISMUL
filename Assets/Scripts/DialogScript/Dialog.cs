@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,17 +9,42 @@ using UnityEngine;
 [System.Serializable]
 public class Dialog
 {
-    [SerializeField] Dialogs[] jumlahDialog;
-    [SerializeField] int newsize;
+    public enum jwbnBenar { PilihanA, PilihanB, PilihanC }
 
-    List<string> lines;
-    List<bool> isSoal;
+    [SerializeField] Dialogs[] jumlahDialog;
+    [SerializeField] JumlahSoal[] jumlahSoal;
+
+    [System.Serializable]
+    private class JumlahSoal
+    {
+
+        [SerializeField] string PilihanA;
+        [SerializeField] string PilihanB;
+        [SerializeField] string PilihanC;
+        [SerializeField] public jwbnBenar jwbBnr;
+
+        private List<string> listJawaban;
+
+        public List<string> ListJawaban
+        {
+            get {
+                listJawaban = new List<string> { PilihanA, PilihanB, PilihanC };
+                return listJawaban; }
+        }
+
+        public jwbnBenar JwbBnr
+        {
+            get { return jwbBnr; }
+        }
+
+    }
 
     [System.Serializable]
     private class Dialogs
     {
         [SerializeField] string line;
         [SerializeField] bool isSoal;
+
 
         public string Line
         {
@@ -30,11 +56,26 @@ public class Dialog
         }
 
     }
+    jwbnBenar jwbBnr;
+    List<string> lines;
+    List<bool> isSoal;
+    List<Tuple<List<string>, jwbnBenar>> listJawaban;
 
-    public void start()
-    {
-        jumlahDialog = new Dialogs[newsize];
+    public List<Tuple<List<string>, jwbnBenar>> ListJawaban {
+        get 
+        {
+            listJawaban = new List<Tuple<List<string>, jwbnBenar>>();
+            foreach (var listjwb in jumlahSoal)
+            {
+                listJawaban.Add(new Tuple<List<string>, jwbnBenar>(listjwb.ListJawaban, listjwb.JwbBnr));
+            }
+            return listJawaban; 
+        }
+        
     }
+
+
+
 
     public List<string> Lines()
     {
@@ -56,6 +97,7 @@ public class Dialog
         }
         return isSoal;
     }
+
 
     //[SerializeField] private QnA[] qnaArray;
     //[SerializeField] int newsize;
