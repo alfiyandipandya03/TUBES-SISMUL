@@ -67,19 +67,19 @@ public class PlayerController : MonoBehaviour
         var targetPos = transform.position;
         if (velo.x > 0)
         {
-            targetPos.x += 0.1f;
+            targetPos.x += 0.2f;
         } else if (velo.x == 0)
         {
 
         }
         else
         {
-            targetPos.x += -0.1f;
+            targetPos.x += -0.2f;
         }
 
         if (velo.y > 0)
         {
-            targetPos.y += 0.1f;
+            targetPos.y += 0.2f;
         }
         else if (velo.y == 0)
         {
@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            targetPos.y += -0.1f;
+            targetPos.y += -0.2f;
         }
 
         if (velo.x != 0 & velo.y != 0)
@@ -118,7 +118,7 @@ public class PlayerController : MonoBehaviour
 
     private bool IsWalkable(Vector3 targetPos)
     {
-        if (Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectsLayer) != null)
+        if (Physics2D.OverlapCircle(targetPos, 0.1f, solidObjectsLayer) != null)
         {
             return false;
         }
