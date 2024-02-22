@@ -1,0 +1,4339 @@
+fileFormatVersion: 2
+guid: 7c6f932eb61e4c343b4df8b1137a7d1d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walls_roofs_and_other_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6baa7983aba5aa0498db6d1f3469a6d6
+      internalID: 954888154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce70ed5ade6a4d64480bddf3a14e5abd
+      internalID: 1172583583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e14f12314b9b7548a563c40e69bb689
+      internalID: 1488861655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a72a37dfc31bc488b426aca621d8c6
+      internalID: 1641850743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f85368610dafa94daa397c4cb385ea7
+      internalID: 1785683066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dda785e180efa4ba26200f3200cead
+      internalID: -983068005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51515eb243928df45a21c90653220c7a
+      internalID: -1886820287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5053bf290c4834fa78d536e85ace1d
+      internalID: 512107803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a122b44b50a5f43b650c14880a58e0
+      internalID: -973711763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc1b8beb9c94d045a362b1940ede479
+      internalID: 125429108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a1b0e0b76b0474a8f4228c535a05b1
+      internalID: -290671346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9e6fc163b582e40b75cc0830da8bcf
+      internalID: -674014352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ac0b7019427f047a176717b12b9bac
+      internalID: -1393832611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_13
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb7ad6e7f766954282093f1c3f0e4ad
+      internalID: 639720489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c9803e6372ff145b303052c174c0c5
+      internalID: 333056542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_15
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c478a2ef5f1074d931999e17eef0ed
+      internalID: -1511763061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f88e1195bd4424e9f17f1be9349552
+      internalID: 52423579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece88f2a8e7f29349bdd67ed42e56765
+      internalID: -1985934313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_18
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acc273a63dbf97488fe664a4f58c181
+      internalID: -1849433613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a94f3a5067f9b40894823823f84346
+      internalID: 1936705931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e03e97ee510b1b4c856427f70cd4d33
+      internalID: 521163992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe1201320906a14cb01178e4a01f4f9
+      internalID: 1369668204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880dd38021460894ba1fb7039ccc096e
+      internalID: 1149897228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61055fc5b437fa54f82e6c4e31d18e85
+      internalID: 1976665813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2e82a90e9725b46ac9956437365704
+      internalID: 1863639999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab61f14f512550f40b4577b8b5f0359c
+      internalID: 519150420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f586341815db904dba7f68453d2733a
+      internalID: 1383984275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e1404ae28276e43a951811a92b9b21
+      internalID: 531463703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77a62597b0c30642ad2e8001e586734
+      internalID: 975439570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_29
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61675908165e1b048b58159485911753
+      internalID: 59321623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_30
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42a4a0c610074243844a7afda447193
+      internalID: -837236310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_31
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03405a2d684c50c40817bd92bc9b1f31
+      internalID: 1791440429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80b2cf2483881b4483c1ff036d778a7
+      internalID: 1198332140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_33
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29914decb188ce4697db8c22b2707f4
+      internalID: 123645833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55b559e4f1bff04b9eca10191949202
+      internalID: -1760339682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_35
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcf6d31cccc74546b73aa9b8c880035
+      internalID: 176718087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3577b35b7b7d584b8094fe01c68d634
+      internalID: -685923391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_37
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327fef7ead1dee840927e606fa739b73
+      internalID: -1604103686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_38
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5f47f612417184b829396e48ad71f1
+      internalID: 1374155175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_39
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761d2ad75e097404c8a3b1fdb5ca41b4
+      internalID: 412995993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6996693b86132ef4da9bc3263457c820
+      internalID: -282619276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_41
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6ffa84cf315cf4ca314d17d9201192
+      internalID: 1796825628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_42
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02587586771c8474a9577a91026288c4
+      internalID: -2092010339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_43
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7079306497641c942af1d43737c9ab6b
+      internalID: -2095789877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316ea8f6572cf1e48974d7098b486385
+      internalID: -1659013086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_45
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f42369f88d1c94d915146f8682789d
+      internalID: -1064135827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9a7163060f32a4688ea653d9a0c6c0
+      internalID: -1575885809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_47
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5675453a135a214caf45e51f51e0873
+      internalID: 835352662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a6904872e45484b88d2404ca6550de
+      internalID: 1524441884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ef87be172ea2844b89af84b3379ac1
+      internalID: -1254307308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab98d98269fd32649903cd2cd9e7a3b1
+      internalID: 1710290356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_51
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954bb0783689f6047b965ebc0d7faf52
+      internalID: 1094052245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f11949d69a84c74099874ae266d6b8e
+      internalID: 423975918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_53
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af9b575a901b9b46a964f180b8ca652
+      internalID: 1695072057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_54
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6ddfd1b3a36854c86c72246ef7f8b3
+      internalID: 1025923020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_55
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a96e44c6c95544d8bfe34270403c21
+      internalID: -1564864077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_56
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2038dab238baae4a893a688107a5dae
+      internalID: -1592335859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_57
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d71d7fb595fa0489f8fe642560541e
+      internalID: -1890461341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba244fc27c470df498248a4d32703e69
+      internalID: -52726802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_59
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880e7c17ac0ee9c4daf17d3ad415f000
+      internalID: 337322470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_60
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faa53a9f4efc8547ac18084b3496869
+      internalID: 178725672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3322680e27b9b1340bf2366f095804f6
+      internalID: 639052493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_62
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7c893115c4b7742a95f68a0fb2efad
+      internalID: 947035609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_63
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6430c8822b089442aa98e22a19fa588
+      internalID: -1423042720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_64
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad656eefc22a4a34cbf4f16ef599f46b
+      internalID: -384813427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_65
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746304107f49326468220a23d955961f
+      internalID: 1274195375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_66
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758a820b382ce494aaa8d57b1b7894f5
+      internalID: 995520203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_67
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4804a30f23d4111468c3c10c546410cd
+      internalID: -1746548243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_68
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80073a63f545d184db04003eeeaeea96
+      internalID: 2122603664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_69
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a686e6dab695e04d9d4378aa92b2b05
+      internalID: -2056614607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_70
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b584640f79c774c41a286947180c9b62
+      internalID: -308120908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_71
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b86574794f32c4d8c750662ec684e1
+      internalID: 1960755694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de112a3de9f3ad46ba7167cc0578d28
+      internalID: -2107049534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef7cad597458bb4aac6d138afb28893
+      internalID: 1166053456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_75
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76faa19f37673f244866ded58fd75350
+      internalID: 1619077956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_76
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a29f75946925c546aa0d0f47bd7fe7e
+      internalID: -1662045609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_77
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f45f181b80e234f80e2c8e2cc15844
+      internalID: 899694540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_78
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b48595b41730143a84afbf41750f0a
+      internalID: 224987141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_79
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ed0cf955617d749af6226c68143d84
+      internalID: 1102594857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_80
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ac8762d53468447b1be5354b4d0aff
+      internalID: -217129615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_81
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775eda2b496d39a4f80a0b8ff901573e
+      internalID: 1527724147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_82
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931c7496a55adb449b85b43fd6a29dca
+      internalID: 518348527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_83
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2fc56a62139604d8b7bc4b56df6ac8
+      internalID: -1865874858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_84
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36f57fd1e62277419e0ee67a0f713b0
+      internalID: 262360114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_85
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d862ed0fc84bdc34da080b9c4ef3bc16
+      internalID: 26198712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de11aac1f1a20945863515f8c383fce
+      internalID: 671032617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_87
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bce50ab2968ccc4089bfb84000b8fc3
+      internalID: -1009521358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_88
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98af59d550217e240ae4626548e36a74
+      internalID: 952448340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_89
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19eb32b4ba143da4b854ef035cfefd1e
+      internalID: -87009612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_90
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd02e5efa1c3fd44a5467d5dbff8447
+      internalID: -489879247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_91
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e867da7727c91b4e9c6959671393ff9
+      internalID: 1178680290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_92
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5005bcb7821914697230031c11b573
+      internalID: -1672585344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_93
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0799148d3f0257f469023fcc25dc575c
+      internalID: 1170956655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_94
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bb7c719d36fe04db6e5d5f240ec406
+      internalID: 361059563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_95
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2b3fdd61954bb43ab0268df18e47a5
+      internalID: -1860029947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_97
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 128
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1009f262e7be446af7d2228e3f5be0
+      internalID: -1016122374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ff5fa0360029e4ba4fdbc4057a099a
+      internalID: -1168630923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745076dc815fcd3408571ac2baea3fc1
+      internalID: 1887333840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_101
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647ebab22adc742419cd799b54b289ad
+      internalID: -2015685364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 108
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2cb39e4d9bea946aa8c17664d53cd8
+      internalID: 1491687660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059d475500af27646bd7e0aac3272a61
+      internalID: 1505079826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_104
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbab49339b5b54d46870311946326955
+      internalID: -1326553588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_105
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c3ec07d5a84c9459e56ff4cc04426c
+      internalID: -1654889568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_106
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fe70f05f1eb574487ecd985dd9f2b4
+      internalID: 1559667839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_107
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5306811f0dc89e34597c1df12cf98a60
+      internalID: -28072742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_109
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802a2f88cc68c1341a770db8d77da774
+      internalID: -690559092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_110
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af699ed845131245904bb251f2361aa
+      internalID: -1755873835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_111
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baeb383464ef1bc4580cf6d06d57be0c
+      internalID: 226138822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_112
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce82b1722c86ed47abd97f1007111eb
+      internalID: -1595585951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_113
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ca66759593fdc429c548eb551f5d0c
+      internalID: 1875144916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_114
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465d2544decff244a8ad309fbeba1c46
+      internalID: 1778670728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_115
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da069d97938ab94798af0b489a906b6
+      internalID: 858721089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_116
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d123841500dcf045a695f63d60d1fd6
+      internalID: 788546446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_117
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b8af5fa4b0fa148a34f5f68c14fddb
+      internalID: -1368874910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_118
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9739b69374729dc49b4dc3f526055793
+      internalID: 1408531717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_119
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdbc9bbae6878d4d855cfa5afe8a516
+      internalID: -439319600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_121
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a5cff1ddc5e964d93dba6e4f3815bf
+      internalID: 538408300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_122
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d074c66a6f24eed4da52da51fe47d595
+      internalID: -124212599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_124
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923a3a4343bcccd48bab451f5ab8ef48
+      internalID: -1960045772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_125
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2660d23c237aa46aa4c061a20b3a73
+      internalID: -1356374201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_128
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 96
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98985ab5a6be2a645980b44a02830ee3
+      internalID: -1453526546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_129
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 96
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75b7bb97a677824fa87d28e17fbd66f
+      internalID: 319744858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_130
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 96
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c8108f298e73348b4d488f763d22a0
+      internalID: -476458274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_132
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cde825158f2e484b85d3e6d2c54826c
+      internalID: 1465816768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_134
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac34b536689cdd34f8cc27afb5ab23f3
+      internalID: 1285020900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_135
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d1b02dbb9886540867493b0156ed30
+      internalID: -665533567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_136
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b931df8126ea64aab61983d745eb25
+      internalID: -503458659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_137
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2911505985cdffd43a0914aa0f426c32
+      internalID: -1139271835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_138
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3eb4ec8442a754468126ab23c17ae15
+      internalID: 148346523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_139
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a12b2988b8219a4eaf3e816533498a5
+      internalID: -175348468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_140
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29193ee882493b42a37ef84db7c976b
+      internalID: 1868605299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_141
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99ae248db77a2f45b73a3464e00c832
+      internalID: 2008069347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_142
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02b878e6ad09744e8d3a4e985c60088
+      internalID: -226155756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_143
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ee835b9663ba54b89f3a4f3f8b52be
+      internalID: 932566028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_144
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4324e51f20c2274f9a47c68f5f99161
+      internalID: 224817176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_145
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d71d62d9373e874695f428388736bb8
+      internalID: -668965969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_146
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebe52f3c85f52943a81adbd930667e6
+      internalID: -413027219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_148
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 64
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b648969f141be3c4b852405b0af4bf54
+      internalID: 578785177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_149
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 64
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea9abca0231f7a49a635db391ddf096
+      internalID: -1875831692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_150
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 64
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72f1dadd7acf454a803b3b0f79f46d7
+      internalID: -63496530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_153
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363316e18aceb9645ad8987c5f82dbad
+      internalID: -176080517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_154
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58f9dba25a4f684281b0365ad668fce
+      internalID: 607747509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_155
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397fab4c7626aad46aa793524275a05f
+      internalID: 958192986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_156
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a02511d3c147c4cb889176bf4ef433
+      internalID: 1340074410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_157
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb3164a3ee989347ba78fa7cd7af419
+      internalID: 2087369590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_158
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3054a8c6a2ed2a94f80e08166a5e48d8
+      internalID: 64789064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_159
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ff17859390d7c4db07c3e995faf707
+      internalID: 1167890163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_160
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9fce13a5b9d664a8579a64848299c5
+      internalID: 1627917136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_161
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a2eaaccbf4a8c4782efb8059b61fd0
+      internalID: 882048867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_162
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f529afeed2c67c48bdce887866f6481
+      internalID: -1503856944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_163
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ccac4692ad6ed488e9ba39a2a924e5
+      internalID: 1443872236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_164
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521dec2b6f2da834e8addd7a123f49a9
+      internalID: 207519936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_165
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df97ff9075a5a41459e859774721087a
+      internalID: -524640717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_166
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba54e0e34c695747bfcfc8379619dc2
+      internalID: -2434030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_167
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483b9c1c1f1a2714e96908f8de3df1c8
+      internalID: -827457922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_168
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93a66d7885fc834a8e0baa6c8636fd1
+      internalID: 491407201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_170
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 32
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762732d0b2384ee4abb107b4a8306873
+      internalID: -372736152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_171
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 32
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4668e4727f5324ba1a38f181ba714b
+      internalID: -1008341917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_172
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 32
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211b9b3133a94a442a3d45e7d01a736a
+      internalID: 301301878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_174
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1f431794cd116468348858c9432f7f
+      internalID: 1526320784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_175
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3680bc8601061734195362cad0e5ff9a
+      internalID: -1923595137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_176
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddc16f2b81126949b3794f46f7985b2
+      internalID: 1811826913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_177
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab107201229ec142ac7ecceac7c1d32
+      internalID: 488424324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_178
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5e8cc39c3230543a6094dd214ad8d4
+      internalID: -1260725063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_179
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1091b8a1c0cf8e43adffb32ed1788f5
+      internalID: -1881209978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_180
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629ea2f5335b49b48bd6cfaedc04cf8e
+      internalID: 643768896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_181
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7add3fac27975d04fa16928dae7c2dfc
+      internalID: -1584295176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_182
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb764a7dde5b6ba4cbe52432af6edc12
+      internalID: 828573159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_183
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2182f0a88c8179b4d91ec8c7fe0e1bbf
+      internalID: 398558868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_184
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a487e874acb9be945be13441275bbb13
+      internalID: -242199349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_185
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47a4a7f56b1ca74a94a8261f9b86aae
+      internalID: 976611222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_186
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b1577cbed37704a8fc587a2fa50fda
+      internalID: 109354094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_187
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa70ec6aed60d6a43b069d329e451a7f
+      internalID: -1324581990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_188
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb7a94b84262dd4bb8eb623d024ff1d
+      internalID: 1213530424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_190
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c33c67e3742414babd20bbc73ec7bf
+      internalID: 2078170880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_193
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 0
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d3dbc644141804ea3248abe60933d7
+      internalID: -260728315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_194
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d529c312df820934988a2e3d97124937
+      internalID: 1748098976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_195
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62d022b1dfcc674a946159e42e239e5
+      internalID: 343241694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_197
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864b239fc3cca014db92b1fc328d405c
+      internalID: 582111014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_198
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee1fbbcb875f364db70c0e258e16317
+      internalID: 1488162863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_199
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47b88fbeedebde499e35e0b9fb8ca55
+      internalID: -370006749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_200
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85977e13a9115224db04af813f8d27e5
+      internalID: 956206696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_201
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d23c1529e2c0d44b6391e395360412
+      internalID: 53370963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_202
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbd52db3ccf1be418bfaed39b88b74a
+      internalID: -1483313309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_203
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b899082d4839eee4ca98864985324575
+      internalID: 1066800799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_204
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fc78ef9dd114c45b79806cc10c5cc6
+      internalID: -2109760371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_205
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2fd74209fc3f241a53e7ebfc15bc36
+      internalID: -694726891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_206
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c119b62ee16fa524cb3f6da789162e86
+      internalID: -741525914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_207
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1720116b4a54dd40aa1f9af6800648b
+      internalID: -394685916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_and_other_208
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71a668baba3ddd45996c49549c55bba
+      internalID: 1420823629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      walls_roofs_and_other_0: 954888154
+      walls_roofs_and_other_1: 1172583583
+      walls_roofs_and_other_10: -290671346
+      walls_roofs_and_other_100: 1887333840
+      walls_roofs_and_other_101: -2015685364
+      walls_roofs_and_other_102: 1491687660
+      walls_roofs_and_other_103: 1505079826
+      walls_roofs_and_other_104: -1326553588
+      walls_roofs_and_other_105: -1654889568
+      walls_roofs_and_other_106: 1559667839
+      walls_roofs_and_other_107: -28072742
+      walls_roofs_and_other_108: 309222970
+      walls_roofs_and_other_109: -690559092
+      walls_roofs_and_other_11: -674014352
+      walls_roofs_and_other_110: -1755873835
+      walls_roofs_and_other_111: 226138822
+      walls_roofs_and_other_112: -1595585951
+      walls_roofs_and_other_113: 1875144916
+      walls_roofs_and_other_114: 1778670728
+      walls_roofs_and_other_115: 858721089
+      walls_roofs_and_other_116: 788546446
+      walls_roofs_and_other_117: -1368874910
+      walls_roofs_and_other_118: 1408531717
+      walls_roofs_and_other_119: -439319600
+      walls_roofs_and_other_12: -1393832611
+      walls_roofs_and_other_120: -1759854389
+      walls_roofs_and_other_121: 538408300
+      walls_roofs_and_other_122: -124212599
+      walls_roofs_and_other_123: -468980505
+      walls_roofs_and_other_124: -1960045772
+      walls_roofs_and_other_125: -1356374201
+      walls_roofs_and_other_126: 1514924828
+      walls_roofs_and_other_127: 373777081
+      walls_roofs_and_other_128: -1453526546
+      walls_roofs_and_other_129: 319744858
+      walls_roofs_and_other_13: 639720489
+      walls_roofs_and_other_130: -476458274
+      walls_roofs_and_other_131: -2131646349
+      walls_roofs_and_other_132: 1465816768
+      walls_roofs_and_other_133: -1140201238
+      walls_roofs_and_other_134: 1285020900
+      walls_roofs_and_other_135: -665533567
+      walls_roofs_and_other_136: -503458659
+      walls_roofs_and_other_137: -1139271835
+      walls_roofs_and_other_138: 148346523
+      walls_roofs_and_other_139: -175348468
+      walls_roofs_and_other_14: 333056542
+      walls_roofs_and_other_140: 1868605299
+      walls_roofs_and_other_141: 2008069347
+      walls_roofs_and_other_142: -226155756
+      walls_roofs_and_other_143: 932566028
+      walls_roofs_and_other_144: 224817176
+      walls_roofs_and_other_145: -668965969
+      walls_roofs_and_other_146: -413027219
+      walls_roofs_and_other_147: 1084714920
+      walls_roofs_and_other_148: 578785177
+      walls_roofs_and_other_149: -1875831692
+      walls_roofs_and_other_15: -1511763061
+      walls_roofs_and_other_150: -63496530
+      walls_roofs_and_other_151: -802342382
+      walls_roofs_and_other_152: 697001436
+      walls_roofs_and_other_153: -176080517
+      walls_roofs_and_other_154: 607747509
+      walls_roofs_and_other_155: 958192986
+      walls_roofs_and_other_156: 1340074410
+      walls_roofs_and_other_157: 2087369590
+      walls_roofs_and_other_158: 64789064
+      walls_roofs_and_other_159: 1167890163
+      walls_roofs_and_other_16: 52423579
+      walls_roofs_and_other_160: 1627917136
+      walls_roofs_and_other_161: 882048867
+      walls_roofs_and_other_162: -1503856944
+      walls_roofs_and_other_163: 1443872236
+      walls_roofs_and_other_164: 207519936
+      walls_roofs_and_other_165: -524640717
+      walls_roofs_and_other_166: -2434030
+      walls_roofs_and_other_167: -827457922
+      walls_roofs_and_other_168: 491407201
+      walls_roofs_and_other_169: 1914933467
+      walls_roofs_and_other_17: -1985934313
+      walls_roofs_and_other_170: -372736152
+      walls_roofs_and_other_171: -1008341917
+      walls_roofs_and_other_172: 301301878
+      walls_roofs_and_other_173: -2066368041
+      walls_roofs_and_other_174: 1526320784
+      walls_roofs_and_other_175: -1923595137
+      walls_roofs_and_other_176: 1811826913
+      walls_roofs_and_other_177: 488424324
+      walls_roofs_and_other_178: -1260725063
+      walls_roofs_and_other_179: -1881209978
+      walls_roofs_and_other_18: -1849433613
+      walls_roofs_and_other_180: 643768896
+      walls_roofs_and_other_181: -1584295176
+      walls_roofs_and_other_182: 828573159
+      walls_roofs_and_other_183: 398558868
+      walls_roofs_and_other_184: -242199349
+      walls_roofs_and_other_185: 976611222
+      walls_roofs_and_other_186: 109354094
+      walls_roofs_and_other_187: -1324581990
+      walls_roofs_and_other_188: 1213530424
+      walls_roofs_and_other_189: 651660141
+      walls_roofs_and_other_19: 1936705931
+      walls_roofs_and_other_190: 2078170880
+      walls_roofs_and_other_191: -119224123
+      walls_roofs_and_other_192: -1364745158
+      walls_roofs_and_other_193: -260728315
+      walls_roofs_and_other_194: 1748098976
+      walls_roofs_and_other_195: 343241694
+      walls_roofs_and_other_196: 99509351
+      walls_roofs_and_other_197: 582111014
+      walls_roofs_and_other_198: 1488162863
+      walls_roofs_and_other_199: -370006749
+      walls_roofs_and_other_2: 1488861655
+      walls_roofs_and_other_20: 521163992
+      walls_roofs_and_other_200: 956206696
+      walls_roofs_and_other_201: 53370963
+      walls_roofs_and_other_202: -1483313309
+      walls_roofs_and_other_203: 1066800799
+      walls_roofs_and_other_204: -2109760371
+      walls_roofs_and_other_205: -694726891
+      walls_roofs_and_other_206: -741525914
+      walls_roofs_and_other_207: -394685916
+      walls_roofs_and_other_208: 1420823629
+      walls_roofs_and_other_21: 1369668204
+      walls_roofs_and_other_22: 1149897228
+      walls_roofs_and_other_23: 1976665813
+      walls_roofs_and_other_24: 1863639999
+      walls_roofs_and_other_25: 519150420
+      walls_roofs_and_other_26: 1383984275
+      walls_roofs_and_other_27: 531463703
+      walls_roofs_and_other_28: 975439570
+      walls_roofs_and_other_29: 59321623
+      walls_roofs_and_other_3: 1641850743
+      walls_roofs_and_other_30: -837236310
+      walls_roofs_and_other_31: 1791440429
+      walls_roofs_and_other_32: 1198332140
+      walls_roofs_and_other_33: 123645833
+      walls_roofs_and_other_34: -1760339682
+      walls_roofs_and_other_35: 176718087
+      walls_roofs_and_other_36: -685923391
+      walls_roofs_and_other_37: -1604103686
+      walls_roofs_and_other_38: 1374155175
+      walls_roofs_and_other_39: 412995993
+      walls_roofs_and_other_4: 1785683066
+      walls_roofs_and_other_40: -282619276
+      walls_roofs_and_other_41: 1796825628
+      walls_roofs_and_other_42: -2092010339
+      walls_roofs_and_other_43: -2095789877
+      walls_roofs_and_other_44: -1659013086
+      walls_roofs_and_other_45: -1064135827
+      walls_roofs_and_other_46: -1575885809
+      walls_roofs_and_other_47: 835352662
+      walls_roofs_and_other_48: 1524441884
+      walls_roofs_and_other_49: -1254307308
+      walls_roofs_and_other_5: -983068005
+      walls_roofs_and_other_50: 1710290356
+      walls_roofs_and_other_51: 1094052245
+      walls_roofs_and_other_52: 423975918
+      walls_roofs_and_other_53: 1695072057
+      walls_roofs_and_other_54: 1025923020
+      walls_roofs_and_other_55: -1564864077
+      walls_roofs_and_other_56: -1592335859
+      walls_roofs_and_other_57: -1890461341
+      walls_roofs_and_other_58: -52726802
+      walls_roofs_and_other_59: 337322470
+      walls_roofs_and_other_6: -1886820287
+      walls_roofs_and_other_60: 178725672
+      walls_roofs_and_other_61: 639052493
+      walls_roofs_and_other_62: 947035609
+      walls_roofs_and_other_63: -1423042720
+      walls_roofs_and_other_64: -384813427
+      walls_roofs_and_other_65: 1274195375
+      walls_roofs_and_other_66: 995520203
+      walls_roofs_and_other_67: -1746548243
+      walls_roofs_and_other_68: 2122603664
+      walls_roofs_and_other_69: -2056614607
+      walls_roofs_and_other_7: 512107803
+      walls_roofs_and_other_70: -308120908
+      walls_roofs_and_other_71: 1960755694
+      walls_roofs_and_other_72: 1486870023
+      walls_roofs_and_other_73: -2107049534
+      walls_roofs_and_other_74: 1166053456
+      walls_roofs_and_other_75: 1619077956
+      walls_roofs_and_other_76: -1662045609
+      walls_roofs_and_other_77: 899694540
+      walls_roofs_and_other_78: 224987141
+      walls_roofs_and_other_79: 1102594857
+      walls_roofs_and_other_8: -973711763
+      walls_roofs_and_other_80: -217129615
+      walls_roofs_and_other_81: 1527724147
+      walls_roofs_and_other_82: 518348527
+      walls_roofs_and_other_83: -1865874858
+      walls_roofs_and_other_84: 262360114
+      walls_roofs_and_other_85: 26198712
+      walls_roofs_and_other_86: 671032617
+      walls_roofs_and_other_87: -1009521358
+      walls_roofs_and_other_88: 952448340
+      walls_roofs_and_other_89: -87009612
+      walls_roofs_and_other_9: 125429108
+      walls_roofs_and_other_90: -489879247
+      walls_roofs_and_other_91: 1178680290
+      walls_roofs_and_other_92: -1672585344
+      walls_roofs_and_other_93: 1170956655
+      walls_roofs_and_other_94: 361059563
+      walls_roofs_and_other_95: -1860029947
+      walls_roofs_and_other_96: 816159619
+      walls_roofs_and_other_97: -1016122374
+      walls_roofs_and_other_98: -1168630923
+      walls_roofs_and_other_99: 1756688977
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
