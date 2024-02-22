@@ -10,6 +10,7 @@ public class PatungControl : MonoBehaviour
 
     public void Interact()
     {
+        print("ini patung");
         DialogManager.Instance.ShowDialog(dialog);
     }
 

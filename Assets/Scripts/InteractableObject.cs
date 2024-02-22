@@ -9,10 +9,20 @@ public class InteractableObject : MonoBehaviour
     public KeyCode interactKey;
     public UnityEvent interactAction;
     public GameObject interactText;
+
+    bool isInteract;
     // Start is called before the first frame update
     void Start()
     {
-        
+        DialogManager.Instance.OnShowDialog += () =>
+        {
+            isInteract = true;
+        };
+
+        DialogManager.Instance.OnCloseDialog += () =>
+        {
+            isInteract = false;
+        };
     }
 
     // Update is called once per frame
@@ -20,8 +30,9 @@ public class InteractableObject : MonoBehaviour
     {
         if (isInrange)
         {
-            if (Input.GetKeyDown(interactKey))
+            if (Input.GetKeyDown(interactKey) && !isInteract)
             {
+                
                 interactAction.Invoke();
                 print("Nice Interaction!!!");
             }
