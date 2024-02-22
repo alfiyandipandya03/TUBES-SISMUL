@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     private Vector2 input;
     private Animator animator;
 
+    public LayerMask solidObjectsLayer;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -38,34 +40,56 @@ public class PlayerController : MonoBehaviour
         if (controller.IsUp())
         {
             veloY = Vector2.up;
-            animator.SetFloat("moveY", 1f);
-            animator.SetFloat("moveX", 0f);
         }
 
         if (controller.IsDown())
         {
             veloY = Vector2.down;
-            animator.SetFloat("moveY", -1f);
-            animator.SetFloat("moveX", 0f);
         }
 
         if (controller.IsRight())
         {
             veloX = Vector2.right;
-            animator.SetFloat("moveX", 1f);
-            animator.SetFloat("moveY", 0f);
         }
         
         if (controller.IsLeft())
         {
             veloX = Vector2.left;
-            animator.SetFloat("moveX", -1f);
-            animator.SetFloat("moveY", 0f);
         }
         //spdX = Input.GetAxisRaw("Horizontal") * moveSpeed;
         //spdY = Input.GetAxisRaw("Vertical") * moveSpeed;
         //rb.velocity = new Vector2(spdX, spdY);
-        Vector2 velo = veloX + veloY; 
+
+        Vector2 velo = veloX + veloY;
+        animator.SetFloat("moveY", velo.y);
+        animator.SetFloat("moveX", velo.x);
+
+        var targetPos = transform.position;
+        if (velo.x > 0)
+        {
+            targetPos.x += 0.1f;
+        } else if (velo.x == 0)
+        {
+
+        }
+        else
+        {
+            targetPos.x += -0.1f;
+        }
+
+        if (velo.y > 0)
+        {
+            targetPos.y += 0.1f;
+        }
+        else if (velo.y == 0)
+        {
+
+        }
+        else
+        {
+            targetPos.y += -0.1f;
+        }
+
         if (velo.x != 0 & velo.y != 0)
         {
             velo = velo / 1.5f;
@@ -81,6 +105,23 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isMoving", true);
         }
 
-        rb.velocity = velo * moveSpeed;
+        if (IsWalkable(targetPos))
+        {
+            rb.velocity = velo * moveSpeed;
+        }
+        else
+        {
+            rb.velocity = Vector2.zero;
+        }
+
+    }
+
+    private bool IsWalkable(Vector3 targetPos)
+    {
+        if (Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectsLayer) != null)
+        {
+            return false;
+        }
+        return true;
     }
 }
