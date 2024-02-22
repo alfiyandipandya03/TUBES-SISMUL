@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void Update()
+    public void HandleUpdate()
     {
         //if (!isMoving)
         //{
@@ -55,14 +55,14 @@ public class PlayerController : MonoBehaviour
         if (controller.IsLeft())
         {
             veloX = Vector2.left;
+
         }
         //spdX = Input.GetAxisRaw("Horizontal") * moveSpeed;
         //spdY = Input.GetAxisRaw("Vertical") * moveSpeed;
         //rb.velocity = new Vector2(spdX, spdY);
 
         Vector2 velo = veloX + veloY;
-        animator.SetFloat("moveY", velo.y);
-        animator.SetFloat("moveX", velo.x);
+        
 
         var targetPos = transform.position;
         if (velo.x > 0)
@@ -102,6 +102,8 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            animator.SetFloat("moveY", velo.y);
+            animator.SetFloat("moveX", velo.x);
             animator.SetBool("isMoving", true);
         }
 
