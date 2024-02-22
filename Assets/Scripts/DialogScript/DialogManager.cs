@@ -32,7 +32,7 @@ public class DialogManager : MonoBehaviour
 
         this.dialog = dialog;
         dialogBox.SetActive(true);
-        StartCoroutine(TypingDialog(dialog.Lines[0]));
+        StartCoroutine(TypingDialog(dialog.Lines()[0]));
 
     }
 
@@ -56,12 +56,12 @@ public class DialogManager : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Z) && !isTyping)
         {
-            Debug.Log("cr line : " + currentLine + "dial line : " + dialog.Lines.Count);
+            Debug.Log("cr line : " + currentLine + "dial line : " + dialog.Lines().Count);
             ++currentLine;
             
-            if (currentLine < dialog.Lines.Count)
+            if (currentLine < dialog.Lines().Count)
             {
-                StartCoroutine(TypingDialog(dialog.Lines[currentLine]));
+                StartCoroutine(TypingDialog(dialog.Lines()[currentLine]));
             }
             else
             {

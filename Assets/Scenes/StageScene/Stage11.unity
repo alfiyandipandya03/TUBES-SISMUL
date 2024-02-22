@@ -15544,10 +15544,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-    lines:
-    - Jawab beberapa soal berikut untuk mendapatkan kunci!
-    - Soal 1
-    - Soal 2
+    jumlahDialog:
+    - line: Halo anjing
+      isSoal: 0
+    - line: lu anjing
+      isSoal: 0
+    - line: anjing
+      isSoal: 0
+    newsize: 0
 --- !u!1 &1387111537
 GameObject:
   m_ObjectHideFlags: 0
